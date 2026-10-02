@@ -19,6 +19,14 @@ it in browser code.
    update public.users set role = 'admin' where email = 'you@example.com';
    ```
 
+## Deploying to Vercel
+
+In the Vercel project settings, add `SUPABASE_URL` and
+`SUPABASE_SERVICE_ROLE_KEY` to the **Production** environment (and Preview if
+needed), then redeploy. The `api/[...path].js` function serves the existing
+Express API for `/api/*`; these values must remain server-side and must not use
+a `VITE_` prefix. Local development continues to load them from `.env`.
+
 The server hashes account passwords and stores only hashed session tokens. New
 registrations always have the `user` role; administrator access must be granted
 in the database by a trusted project owner.

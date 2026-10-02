@@ -20,17 +20,19 @@ const PASSWORD_HASH_BYTES = 64;
 app.use(cors());
 app.use(express.json({ limit: '8mb' }));
 
-let databaseReady = false;
-initDb()
+let databaseInitializationError;
+const databaseInitialization = initDb()
   .then(() => {
-    databaseReady = true;
+    console.log('Supabase database initialized.');
   })
   .catch((error) => {
+    databaseInitializationError = error;
     console.error('Failed to initialize Supabase:', error.message);
   });
 
-app.use((req, res, next) => {
-  if (!databaseReady) {
+app.use(async (req, res, next) => {
+  await databaseInitialization;
+  if (databaseInitializationError) {
     return res.status(503).json({
       error: 'Supabase is unavailable. Check SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, and supabase/schema.sql.',
     });
@@ -671,6 +673,10 @@ app.delete('/api/products/:id', authenticate, requireAdmin, async (req, res) => 
   }
 });
 
-app.listen(PORT, () => {
-  console.log(`[FreshCart Supabase API] running on http://localhost:${PORT}`);
-});
+export default app;
+
+if (!process.env.VERCEL) {
+  app.listen(PORT, () => {
+    console.log(`[FreshCart Supabase API] running on http://localhost:${PORT}`);
+  });
+}
