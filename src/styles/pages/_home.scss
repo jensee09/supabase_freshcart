@@ -11,11 +11,7 @@
 
   .hero-slide {
     padding: 3.5rem 3rem;
-<<<<<<< HEAD
     height: 380px;
-=======
-    min-height: 380px;
->>>>>>> ae2ea302f95d513065c5d7f1161cb4e9a4b20e8a
     display: flex;
     align-items: center;
     color: white;
@@ -58,15 +54,9 @@
     .slide-img-bg {
       position: absolute;
       right: -20px;
-<<<<<<< HEAD
       bottom: 0;
       width: 50%;
       height: 100%;
-=======
-      bottom: -20px;
-      width: 50%;
-      height: 110%;
->>>>>>> ae2ea302f95d513065c5d7f1161cb4e9a4b20e8a
       object-fit: cover;
       opacity: 0.85;
       mask-image: linear-gradient(to left, rgba(0,0,0,1) 60%, rgba(0,0,0,0) 100%);

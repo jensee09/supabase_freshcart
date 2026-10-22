@@ -46,20 +46,13 @@
 
   .footer-grid {
     display: grid;
-<<<<<<< HEAD
     grid-template-columns: 1.5fr 1fr 1fr;
-=======
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
->>>>>>> ae2ea302f95d513065c5d7f1161cb4e9a4b20e8a
     gap: 2.5rem;
     margin-bottom: 3rem;
 
     .footer-col {
-<<<<<<< HEAD
       min-width: 0;
 
-=======
->>>>>>> ae2ea302f95d513065c5d7f1161cb4e9a4b20e8a
       h5 {
         color: #ffffff;
         font-size: 1rem;
@@ -82,7 +75,6 @@
       ul {
         display: flex;
         flex-direction: column;
-<<<<<<< HEAD
         align-items: flex-start;
         gap: 0.75rem;
         margin: 0;
@@ -94,11 +86,6 @@
 
         a {
           display: inline-block;
-=======
-        gap: 0.75rem;
-
-        a {
->>>>>>> ae2ea302f95d513065c5d7f1161cb4e9a4b20e8a
           font-size: 0.88rem;
           &:hover {
             color: $primary-light;

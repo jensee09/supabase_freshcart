@@ -20,7 +20,6 @@ textarea {
 }
 
 @media (max-width: 1100px) {
-<<<<<<< HEAD
   .hero-slider-section .hero-slide {
     padding-right: 2rem;
     padding-left: 2rem;
@@ -34,8 +33,6 @@ textarea {
     }
   }
 
-=======
->>>>>>> ae2ea302f95d513065c5d7f1161cb4e9a4b20e8a
   .products-page-layout,
   .cart-page-layout,
   .checkout-layout {
@@ -77,19 +74,11 @@ textarea {
     border-radius: 18px;
 
     .hero-slide {
-<<<<<<< HEAD
       height: 350px;
       padding: 2rem 1.5rem;
 
       .slide-content {
         max-width: 62%;
-=======
-      min-height: 340px;
-      padding: 2rem 1.5rem;
-
-      .slide-content {
-        max-width: 65%;
->>>>>>> ae2ea302f95d513065c5d7f1161cb4e9a4b20e8a
 
         h1 {
           font-size: clamp(1.65rem, 5vw, 2.2rem);
@@ -229,14 +218,11 @@ textarea {
     .footer-grid {
       gap: 1.5rem;
       margin-bottom: 2rem;
-<<<<<<< HEAD
       grid-template-columns: repeat(2, minmax(0, 1fr));
 
       .footer-col:first-child {
         grid-column: 1 / -1;
       }
-=======
->>>>>>> ae2ea302f95d513065c5d7f1161cb4e9a4b20e8a
     }
 
     .footer-features {
@@ -268,11 +254,7 @@ textarea {
 
   .hero-slider-section {
     .hero-slide {
-<<<<<<< HEAD
       height: 410px;
-=======
-      min-height: 370px;
->>>>>>> ae2ea302f95d513065c5d7f1161cb4e9a4b20e8a
       align-items: flex-start;
       padding: 1.5rem 1.1rem 3.25rem;
 
@@ -507,13 +489,9 @@ textarea {
     .footer-features {
       grid-template-columns: minmax(0, 1fr);
     }
-<<<<<<< HEAD
-
     .footer-grid .footer-col:first-child {
       grid-column: auto;
     }
-=======
->>>>>>> ae2ea302f95d513065c5d7f1161cb4e9a4b20e8a
   }
 }
 

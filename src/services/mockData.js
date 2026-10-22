@@ -461,13 +461,8 @@ export const PRODUCTS = [
 export const HERO_SLIDES = [
   {
     id: 1,
-<<<<<<< HEAD
     title: 'Farm-Fresh Vegetables, Delivered in 30 Min',
     subtitle: 'Save on your first basket of fresh, local produce.',
-=======
-    title: 'Farm Fresh Organic Vegetables Delivered in 30 Mins',
-    subtitle: 'Get up to 30% OFF on your first grocery basket order!',
->>>>>>> ae2ea302f95d513065c5d7f1161cb4e9a4b20e8a
     badge: '100% ORGANIC & LOCAL',
     bgGradient: 'linear-gradient(135deg, #1b5e20 0%, #2e7d32 100%)',
     ctaText: 'Shop Fresh Produce',
@@ -476,13 +471,8 @@ export const HERO_SLIDES = [
   },
   {
     id: 2,
-<<<<<<< HEAD
     title: 'Seasonal Fruit, Picked at Peak Ripeness',
     subtitle: 'Bright, juicy favorites for every day.',
-=======
-    title: 'Super Juicy Seasonal Fruits Harvest Sale',
-    subtitle: 'Packed with vitamins, handpicked at peak ripeness everyday.',
->>>>>>> ae2ea302f95d513065c5d7f1161cb4e9a4b20e8a
     badge: 'DAILY HARVEST',
     bgGradient: 'linear-gradient(135deg, #e65100 0%, #ff9800 100%)',
     ctaText: 'Explore Fruits',
@@ -491,13 +481,8 @@ export const HERO_SLIDES = [
   },
   {
     id: 3,
-<<<<<<< HEAD
     title: 'Fresh Bakery & Dairy, Every Day',
     subtitle: 'Sourdough, butter, and farm-fresh eggs.',
-=======
-    title: 'Artisanal Bakery & Fresh Dairy Delights',
-    subtitle: 'Sourdough, fresh churned butter, and pasture-raised eggs.',
->>>>>>> ae2ea302f95d513065c5d7f1161cb4e9a4b20e8a
     badge: 'BAKED TODAY',
     bgGradient: 'linear-gradient(135deg, #4e342e 0%, #8d6e63 100%)',
     ctaText: 'Order Bakery',
