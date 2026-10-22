@@ -4,6 +4,10 @@ import {
   FiShield,
   FiRotateCcw,
   FiHeadphones,
+<<<<<<< HEAD
+=======
+  FiSend,
+>>>>>>> ae2ea302f95d513065c5d7f1161cb4e9a4b20e8a
 } from 'react-icons/fi'
 
 export default function Footer() {
@@ -107,7 +111,11 @@ export default function Footer() {
         {/* Bottom */}
         <div className="footer-bottom">
           <div className="copy-text">
+<<<<<<< HEAD
             © {new Date().getFullYear()} FreshCart E-Commerce.
+=======
+            © {new Date().getFullYear()} FreshCart E-Commerce. Built with React & Vite.
+>>>>>>> ae2ea302f95d513065c5d7f1161cb4e9a4b20e8a
           </div>
         </div>
       </div>
