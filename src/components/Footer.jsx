@@ -76,7 +76,7 @@ export default function Footer() {
                 <Link to="/products">Dairy & Eggs</Link>
               </li>
               <li>
-                <Link to="/products">Artisanal Bakery</Link>
+                <Link to="/products">Pantry Essentials</Link>
               </li>
               <li>
                 <Link to="/products">Cold Juices & Drinks</Link>
@@ -85,7 +85,7 @@ export default function Footer() {
           </div>
 
           <div className="footer-col">
-            <h5>Customer Care</h5>
+            <h5>Quick Links</h5>
             <ul>
               <li>
                 <Link to="/profile">My Account</Link>
